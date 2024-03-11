@@ -1,0 +1,102 @@
+/* FONTS */
+
+@font-face {
+  font-family: 'CaeciliaBold';
+  src: url('fonts/caecilialtstd-bold-webfont.eot');
+  src: url('fonts/caecilialtstd-bold-webfont.eot?iefix') format('eot'),
+       url('fonts/caecilialtstd-bold-webfont.woff') format('woff'),
+       url('fonts/caecilialtstd-bold-webfont.ttf') format('truetype'),
+       url('fonts/caecilialtstd-bold-webfont.svg#webfontJJ5X3ApL') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CaeciliaBoldItalic';
+  src: url('fonts/caecilialtstd-bolditalic-webfont.eot');
+  src: url('fonts/caecilialtstd-bolditalic-webfont.eot?iefix') format('eot'),
+       url('fonts/caecilialtstd-bolditalic-webfont.woff') format('woff'),
+       url('fonts/caecilialtstd-bolditalic-webfont.ttf') format('truetype'),
+       url('fonts/caecilialtstd-bolditalic-webfont.svg#webfontIkU3IxTe') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CaeciliaItalic';
+  src: url('fonts/caecilialtstd-italic-webfont.eot');
+  src: url('fonts/caecilialtstd-italic-webfont.eot?iefix') format('eot'),
+       url('fonts/caecilialtstd-italic-webfont.woff') format('woff'),
+       url('fonts/caecilialtstd-italic-webfont.ttf') format('truetype'),
+       url('fonts/caecilialtstd-italic-webfont.svg#webfontM2rDh7N4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CaeciliaRoman';
+  src: url('fonts/caecilialtstd-roman-webfont.eot');
+  src: url('fonts/caecilialtstd-roman-webfont.eot?iefix') format('eot'),
+       url('fonts/caecilialtstd-roman-webfont.woff') format('woff'),
+       url('fonts/caecilialtstd-roman-webfont.ttf') format('truetype'),
+       url('fonts/caecilialtstd-roman-webfont.svg#webfontbjhJcvmk') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body { background-image: url(../img/header_knots.jpg); 
+background-size: 100% auto; 
+background-repeat:no-repeat;
+font-family: "CaeciliaRoman", "Georgia", serif;
+}
+
+h2 { color:#fff; font-family: "CaeciliaRoman", "Georgia", serif; font-size:28px; }
+em { font-family: "CaeciliaItalic", "Georgia", serif; font-style: normal; }
+h3 { font-family: "CaeciliaRoman", "Georgia", serif; }
+
+h1.logo { background: url("../img/logo.png") top left no-repeat; display:block; height:269px; margin-top: 100px; margin-bottom:40px; }
+    h1.logo span { opacity:0; }
+
+#header h2 { width:30%; }
+
+#intro { background:#fff; }
+#intro div { margin-top:10px; margin-left: 0; padding:5px 20px; }
+#intro img { margin-bottom:20px; clear:right;  }
+
+.divider { background:url("../img/divider.png") top left; height: 11px; width:100%; margin:40px 0 0 0; }
+
+#location { background:#fff; padding-top:40px;}
+#location img { margin-bottom:40px;  }
+
+#story { background:#fff; padding-top:40px;}
+#story img { margin-bottom:40px;  }
+
+#location p, #story p { margin:0 55px 20px 55px; }
+
+#footer { padding:40px 0 0 0;}
+#footer h3, #footer p { margin-left:55px;}
+
+.frame { background:#E6E1E0; padding:10px; }
+.right { float:right; margin-left: 20px;  }
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body { background-size: auto 600px; }
+    #header h2 { width:90%; margin:0 20px; font-size:24px; }
+    h1.logo { background: url("../img/logo.png") top center no-repeat; display:block; height:269px; margin-top: 30px; margin-bottom:40px; }
+    #intro div { margin:10px 0; padding:0 10px; }
+}
+
+
+/* @2x Images (Pixel Ratio of 1.25+) */
+@media only screen and (-o-min-device-pixel-ratio: 5/4),
+       only screen and (-webkit-min-device-pixel-ratio: 1.25),
+       only screen and (min--moz-device-pixel-ratio: 1.25),
+       only screen and (min-device-pixel-ratio: 1.25),
+       only screen and (min-resolution: 1.25dppx) {
+
+}
+
+
+
+
